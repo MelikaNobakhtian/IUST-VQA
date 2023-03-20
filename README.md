@@ -1,6 +1,6 @@
 # IUST-VQA
 A simple project derived from miniVQA dataset. The main purpose of this project is providing a simple example of visual question answering tasks. You are expected to implement four models which elaborated upon hereunder.
-Competition Link: [link](https://www.kaggle.com/competitions/minivqaiust/overview)
+- Competition Link: [link](https://www.kaggle.com/competitions/minivqaiust/overview)
 1. At this part you need to use embedding vectors (word2vec, fasttext) of words in questions as input to a LSTM network. After utilizing information from question, concatenate output data with image features and pass it through a dense layer. Then use a classification function and output a final answer.
 
 2. Now try to extract information from questions with transformer models (distilBERT, BERT, etc).
